@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #ff8800;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 196px;
+    height: 55px;
+    /* position: fixed; */
+    top: 0;
+    z-index: 1;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0 55px;
+
+}
+
+.a h1 {
+    font-weight: 100;
+    background: linear-gradient(rgba(0, 0, 0, 0.2));
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    padding: 16px 11px;
+}
+
+.banner h2 {
+    padding-top: 178px;
+    padding-left: 56px;
+    font-size: 39px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.banner h3 {
+    padding-top: 4px;
+    padding-left: 56px;
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 13px;
+    font-weight: 100;
+}
+
+.banner h4 {
+    padding-top: 12px;
+    /* padding-left: -19px; */
+    font-size: 15px;
+    /* text-align: center; */
+    font-weight: 100;
+    background: linear-gradient(rgba(0, 0, 0, 0.5));
+    align-items: center;
+    height: 40px;
+    width: 32%;
+    margin-left: 452px;
+
+}
+
+
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0)), url(https://bestschool.net.in/templates/purity_iii/images/bg.jpg);
+    width: 100%;
+    height: 615px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.banner1 {
+    background: linear-gradient(45deg, black, transparent);
+    width: 100%;
+    height: 468px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 60px;
+
+}
+
+.button {
+    background: #3275e5;
+    padding: 7px;
+    margin: 19px 0;
+    border-radius: 5px;
+    color: white;
+    padding-right: 38px;
+    align-items: center;
+    text-align: center;
+    padding-left: 27px
+}
+
+.button1 {
+    padding: 7px;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding-right: 38px
+}
+
+
+.c {
+    padding: 100px 174px;
+    text-align: center;
+}
+
+.c h1 {
+    font-size: 44px;
+    font-weight: 500;
+    color: #444444;
+    width: 900px;
+}
+
+.c h2 {
+    padding-top: 15px;
+    font-weight: 100;
+    color: grey;
+}
+
+.box {
+    float: left;
+    width: 325px;
+    height: 272px;
+    border: 2px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.space {
+    padding: 0px 90px;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+}
+
+.box h4 {
+       margin-top: -31px;
+       color: white;
+       text-align: center;
+       text-shadow: 3px 3px 3px black;
+   }
+
+.button2 {
+    background: #ff8800;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+    width: 202px;
+    height: 49px;
+    /* text-align: center;
+    align-items: center; */
+    margin-left: 503px;
+    margin-top: 52px;
+}
+
+.press {
+    margin: 101px 160px;
+    text-align: center;
+
+}
+
+
+.press h2 {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "opensans-italic";
+
+}
+
+.press h3 {
+    font-weight: 400;
+    font-family: "opensans-italic";
+}
+
+.f {
+    margin: 37px;
+}
+
+.f h3 {
+    color: #e67a00;
+}
+
+.f h4 {
+    font-weight: 500;
+}
+

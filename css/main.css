@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 91px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+
+
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: capital;
+    color: #ff2b85;
+    padding: 0 10px;    
+    font-weight: bold;
+}
+
+.menu button {
+    width: 156px;
+    height: 39px;
+    background: #ff2b85;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 17px;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), url(/image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: 160px;
+    margin: auto;
+    width: 49%;
+
+}
+
+.news {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, #ff2b85, black);
+    color: white;
+
+
+}
+
+.news marquee {
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.about {
+    padding: 130px 200px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-shadow: 3px 3px 3px #aa6c6c;
+    margin-bottom: 10px;
+}
+
+.about p {
+    line-height: 22px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+
+.about button {
+    color: white;
+    padding: 20px 73px;
+    background: #ff2b85;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+}
+
+.press {
+    background: linear-gradient(rgba(0, 0, 0, 0.7)), url(https://www.foodpanda.com/wp-content/uploads/2021/07/Picture1-2.jpg);
+    padding: 100px 200px;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+.press button {
+
+    color: white;
+    padding: 20px 73px;
+    background: #ff2b85;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+}
+
+.press h2 {
+
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-shadow: 3px 3px 3px #aa6c6c;
+    /*-- left right , top bottom , brithness */
+    margin-bottom: 10px;
+}
+
+.press p {
+    line-height: 22px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: cursive;
+
+}
+
+
+.team {
+    background: linear-gradient(rgba(0, 0, 0, 0.7)), url(https://www.foodpanda.com/wp-content/uploads/2021/07/Picture1-2.jpg);
+    padding: 100px 200px;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+.team button {
+
+    color: white;
+    padding: 20px 73px;
+    background: #ff2b85;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;    
+}
+
+.team h2 {
+
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-shadow: 3px 3px 3px #aa6c6c;
+    /*-- left right , top bottom , brithness */
+    margin-bottom: 10px;
+}
+
+.team p {
+    line-height: 22px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: cursive;
+
+}
+
+.contact {
+    padding: 140px 200px;
+    text-align: center;
+    background: #ff0072;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-shadow: 3px 3px 3px #aa6c6c;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    line-height: 22px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    margin-bottom: 2px;
+
+}
+
+.contact button {
+    padding: 20px 73px;
+    background: black;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 450px;
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 60px;
+}
+
+
+.logo1 {
+    padding: 74px;
+}
+
+.navigate{
+        margin: 0 45px;
+        text-decoration: none;
+        
+}
+
+.navigate h2{
+    color: white;
+}
+
+.navigate a{
+    color: white;
+        font-size: 20px;
+    text-decoration: none;
+}
+
+
+.Collaborate{
+        margin: 0 45px;
+        text-decoration: none;
+}
+
+.Collaborate h2{
+    color: white;
+    
+}
+
+.Collaborate a{
+    color: white;
+        font-size: 20px;
+    text-decoration: none;
+}
+
+.box1 h2{
+    color: white;
+}
+
+
+.box1 h4{
+    color: white;
+}
+
+.box2 h2{
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.box4{
+    color: white;
+}

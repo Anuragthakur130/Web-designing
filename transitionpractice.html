@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+
+        .box{
+            width: 50%;
+            height: 50%;
+            border: 10px solid black;
+            transition-property: width, height, background;
+            transition-duration: 2s,2s,2s;
+            
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .box:hover{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1 class="animate__animated animate__flipInX">Transition</h1>
+        <img src="image/district zomato.jpeg" alt="">
+    </div>
+</body>
+
+</html>

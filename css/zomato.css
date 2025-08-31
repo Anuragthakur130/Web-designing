@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background: white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 91px;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: capital;
+    color: red;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.menu button {
+    width: 156px;
+    height: 39px;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 17px;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), url(https://b.zmtcdn.com/data/o2_assets/7abf59f4c0cbafa0bf3f2bbac1f25b731745512809.png);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    /* text-align: center; */
+    font-size: 60px;
+    color: white;
+    /* background: rgba(0, 0, 0, 0.6); */
+    position: relative;
+    top: 450px;
+    margin: auto;
+    width: 95%;
+    text-align: left;
+
+}
+
+.news {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, red, black);
+    color: white;
+
+
+}
+
+.news marquee {
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.about {
+
+    text-align: left;
+    padding: 40px 10px;
+    font-size: 20px;
+    padding-right: 621px;
+
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.h2 {
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    font-size: 22px;
+    padding-top: 15px;
+    margin-left: 99px;
+    margin-top: 10px;
+    margin-bottom: 36px;
+}
+
+.box {
+    border: 2px solid black;
+    width: 365px;
+    height: 245px;
+    float: left;
+    margin: 10px;
+    padding: 6px;
+    box-sizing: border-box;
+    margin-left: 90px;
+
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.banner img {
+    width: 100%;
+}
+
+.photo {
+    flex-direction: row;
+    padding-inline-start: 1057px;
+     border: 2px solid black;
+    width: 365px;
+    height: 245px;
+    margin: 10px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.box21{
+    display: flex;
+}
+
+/* .imageeffect{    filter: grayscale(100%);
+    transition-property: filter;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .7s;
+
+} */

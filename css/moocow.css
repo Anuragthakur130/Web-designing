@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background: linear-gradient(rgb(253 245 232));
+    justify-content: space-between;
+    padding: 0 70px;
+
+}
+
+.logo img {
+    width: 65px;
+    height: 64px
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    font-weight: 800;
+    font-family: ui-monospace;
+}
+
+.menu button {
+    padding: 4px 10px ;
+    border-radius: 8px;
+    margin: 6px;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.icon {
+    padding: 2px;
+    border-radius: 7px;
+    margin: 6px;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.about h1 {
+    text-align: center;
+    color: #892323;
+    margin: 32px;
+    text-decoration: underline;
+}
+
+.about p {
+    padding: 12px 155px;
+    font-family: system-ui
+}
+
+.about button {
+    margin: 20px;
+    padding: 8px 21px;
+    margin-left: 550px;
+    background: black;
+    color: white;
+    border-radius: 7px;
+    margin-bottom: 70px;
+}
+
+.h1 {
+    text-align: center;
+    background: linear-gradient(rgb(253 245 232));
+    width: 45%;
+    margin: 0 330px;
+}
+
+.news {
+    display: flex;
+    margin-top: 30px;
+}
+
+.space {
+    padding: 31px;
+}
+
+.box {
+    width: 100%;
+    height: 465px;
+    border: 2px solid black;
+}
+
+.box img {
+    width: 100%;
+    height: 90%;
+}
+
+.space p {
+    margin: 20px 0;
+    line-height: 24px;
+}
+
+
+.box h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.box h4 {
+    font-size: 11px;
+}
+
+

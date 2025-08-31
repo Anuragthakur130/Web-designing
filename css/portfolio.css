@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(38, 27, 70);
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h1 {
+    padding: 23px;
+}
+
+.logo img {
+    width: 63px;
+}
+
+.menu a {
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    background: rgb(141, 167, 91);
+    border-radius: 20px;
+
+}
+
+.banner {
+    display: flex;
+    background-color: rgb(66, 62, 106);
+}
+
+.banner img {
+    width: 40%;
+    height: 30%;
+    margin: 30px 33px;
+}
+
+
+.heading {
+    padding: 100px 100px;
+}
+
+.heading h1 {
+    color: white;
+    font-size: 50px;
+    padding: 10px 0
+}
+
+.heading h2 {
+    color: white;
+    font-size: 25px;
+    /* padding: 20px 0 */
+    line-height: 40px;
+    font-family: math;
+}
+
+.heading p {
+    line-height: 30px;
+}
+
+.About {
+    background-color: rgb(66, 62, 106);
+}
+
+.About h2 {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    line-height: 30px;
+}
+
+.project h3 {
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.experience h3 {
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.work h3 {
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.project h4 {
+    padding: 17px 0;
+    color: #edc6bf;
+}
+
+.experience h4 {
+    padding: 17px 0;
+    color: #edc6bf;
+}
+
+.work    h4 {
+    padding: 17px 0;
+    color: #edc6bf;
+}
